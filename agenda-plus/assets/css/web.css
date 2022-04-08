@@ -1,0 +1,602 @@
+/* CSS do painel completo */
+@charset "UTF-8";
+
+body {
+    background-color:#282a36;
+    font-family:arial;
+}
+
+.menu-left {
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:20%;
+    height:100%;
+    background-color:#1d1f27;
+}
+
+.menu-left-icon {
+    margin-top:10%;
+    margin-left:30%;
+    width:120px;
+    height:120px;
+}
+
+h4#title-menu-left {
+    color:#fff;
+    text-align: center;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.menu-buttons {
+    margin-left:30%;
+}
+
+/* Estilo de todos os botões do menu à esquerda */
+a#menu-button {
+    position:absolute;
+    text-decoration:none;
+    color:#ab91ea;
+    margin-top:5%;
+}
+a#menu-button:hover{
+    transition:1s;
+    color:#885fe9;
+}
+a#menu-anot {
+    position:absolute;
+    text-decoration:none;
+    color:#ab91ea;
+    margin-top:25%;
+}
+a#menu-anot:hover{
+    transition:1s;
+    color:#885fe9;
+}
+a#menu-finan {
+    position:absolute;
+    text-decoration:none;
+    color:#ab91ea;
+    margin-top:45%;
+}
+a#menu-finan:hover{
+    transition:1s;
+    color:#885fe9;
+}
+a#menu-comer {
+    position:absolute;
+    text-decoration:none;
+    color:#ab91ea;
+    margin-top:65%;
+}
+a#menu-comer:hover{
+    transition:1s;
+    color:#885fe9;
+}
+a#menu-telef {
+    position:absolute;
+    text-decoration:none;
+    color:#ab91ea;
+    margin-top:85%;
+}
+a#menu-telef:hover{
+    transition:1s;
+    color:#885fe9;
+}
+a#menu-reun {
+    position:absolute;
+    text-decoration:none;
+    color:#ab91ea;
+    margin-top:105%;
+}
+a#menu-reun:hover{
+    transition:1s;
+    color:#885fe9;
+}
+a#menu-sair {
+    position:absolute;
+    text-decoration:none;
+    color:#ab91ea;
+    margin-top:125%;
+}
+a#menu-sair:hover{
+    transition:1s;
+    color:#885fe9;
+}
+
+/* Conteúdo do menu principal onde exibe o conteúdo */
+.menu-content {
+    position: absolute;
+    top:0%;
+    margin-left:19.8%;
+    height:100%;
+    width:79.5%;
+    background-color:transparent;
+}
+
+.menu-alert {
+    position:absolute;
+    top:3%;
+    width:97%;
+    height:8%;
+    border-radius:6px;
+    background-color:rgb(46, 197, 66);
+    text-align:center;
+    color:#fff;
+    margin-left:1%;
+}
+
+.menu-changelogs {
+    position:absolute;
+    width:30%;
+    height:34%;
+    top:15%;
+    right:2%;
+    border-radius:6px;
+    background-color:rgb(152, 193, 247);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #4287c7!important;
+    overflow-y:scroll;
+}
+
+.menu-changelogs::-webkit-scrollbar {
+    color:rgb(152, 193, 247);
+}
+
+.menu-info {
+    position:absolute;
+    width:30%;
+    height:34%;
+    top:15%;
+    right:35%;
+    border-radius:6px;
+    background-color:rgb(255, 147, 147);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #da3333!important;
+    overflow-y:scroll;
+}
+
+.menu-info::-webkit-scrollbar {
+    color:rgb(255, 147, 147);
+}
+
+.menu-estat {
+    position:absolute;
+    width:30%;
+    height:34%;
+    top:15%;
+    right:68.5%;
+    border-radius:6px;
+    background-color:rgb(251, 147, 255);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #ac4bc0!important;
+    overflow-y:scroll;
+}
+
+.menu-estat::-webkit-scrollbar {
+    color:rgb(251, 147, 255);
+}
+
+.menu-options {
+    position:absolute;
+    width:30%;
+    height:34%;
+    top:55%;
+    right:2%;
+    border-radius:6px;
+    background-color:rgb(155, 118, 255);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #7e33e0!important;
+}
+
+.criar-user-button {
+    text-decoration:none;
+    background-color:#e260f3;
+    padding:10px;
+    color:#fff;
+    border-radius:3px;
+}
+.criar-user-button:hover {
+    transition:1s;
+    background-color:#de2ef5
+}
+
+.menu-alerts {
+    position:absolute;
+    width:63.5%;
+    height:34%;
+    top:55%;
+    right:35%;
+    border-radius:6px;
+    background-color:rgb(238, 169, 104);
+    overflow-y: scroll;
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #ec9727!important;
+}
+
+.menu-alerts::-webkit-scrollbar {
+    color:rgb(238, 169, 104);
+}
+
+/* Estilos do anotacao.php */
+.menu-criar-anot {
+    position:absolute;
+    width:22.1%;
+    height:32%;
+    top:5%;
+    right:55%;
+    border-radius:6px;
+    background-color:rgb(147, 163, 255);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #3b54e2!important;
+}
+
+.menu-deletar-anot {
+    position:absolute;
+    width:22.1%;
+    height:32%;
+    top:5%;
+    right:30%;
+    border-radius:6px;
+    background-color:rgb(255, 147, 147);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #e23b3b!important;
+}
+
+.delAnotInput {
+    display:block;
+    margin : 0 auto;
+    border: 2px solid rgb(192, 36, 36);
+    border-radius: 4px;
+    text-align:center;
+    width:80%;
+    height:30px;
+}
+
+.delAnotButton {
+    background-color: #fd5555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:4px;
+    margin-top: 20px;
+}
+.delAnotButton:hover {
+    transition:1s;
+    background-color: #f82626;
+}
+
+.menu-ver-anot {
+    position:absolute;
+    width:80%;
+    height:40%;
+    top:60%;
+    right:10%;
+    border-radius:6px;
+    background-color:rgb(212, 147, 255);
+    overflow-y: scroll;
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #6d32bb!important;
+}
+
+.menu-ver-anot::-webkit-scrollbar {
+    color:rgb(212, 147, 255);
+}
+
+.anotInput {
+    display:block;
+    margin : 0 auto;
+    border: 2px solid rgb(52, 36, 192);
+    border-radius: 4px;
+    text-align:center;
+    width:80%;
+    height:30px;
+}
+
+.anotacaoButton {
+    background-color: #557cfd;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:4px;
+    margin-top: 15px;
+}
+.anotacaoButton:hover {
+    transition:1s;
+    background-color: #2657f8;
+}
+
+/* Estilos do financeiro.php */
+.menu-add-financeiro {
+    position:absolute;
+    width:22.1%;
+    height:55%;
+    top:2%;
+    right:55%;
+    border-radius:6px;
+    background-color:rgb(231, 159, 64);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #e08319!important;
+}
+
+.finanInput {
+    display:block;
+    margin : 0 auto;
+    border: 2px solid rgb(219, 187, 3);
+    border-radius: 4px;
+    text-align:center;
+    width:80%;
+    height:30px;
+}
+
+.menu-deletar-financeiro {
+    position:absolute;
+    width:22.1%;
+    height:32%;
+    top:2%;
+    right:25%;
+    border-radius:6px;
+    background-color:rgb(255, 147, 147);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #e23b3b!important;
+}
+
+.menu-ver-financeiro {
+    position:absolute;
+    width:80%;
+    height:40%;
+    top:60%;
+    right:10%;
+    border-radius:6px;
+    background-color:rgb(248, 120, 158);
+    overflow-y: scroll;
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #c02f66!important;
+}
+
+.menu-ver-financeiro::-webkit-scrollbar {
+    color:rgb(248, 120, 158);
+}
+
+.finanAddButton {
+    background-color: #f88526;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:4px;
+    margin-top: 15px;
+}
+.finanAddButton:hover {
+    transition:1s;
+    background-color: #f7750b;
+}
+
+/* Estilos do comercial.php */
+.menu-criar-comerc {
+    position:absolute;
+    width:22%;
+    height:48%;
+    top:5%;
+    right:60%;
+    border-radius:6px;
+    background-color:rgb(147, 167, 255);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #4b70c0!important;
+}
+
+.menu-deletar-comerc {
+    position:absolute;
+    width:22.1%;
+    height:32%;
+    top:5%;
+    right:30%;
+    border-radius:6px;
+    background-color:rgb(255, 147, 147);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #e23b3b!important;
+}
+
+.menu-ver-comerc {
+    position:absolute;
+    width:80%;
+    height:40%;
+    top:60%;
+    right:10%;
+    border-radius:6px;
+    background-color:rgb(147, 221, 255);
+    overflow-y: scroll;
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #4ba9c0!important;
+}
+
+.menu-ver-comerc::-webkit-scrollbar {
+    color:rgb(147, 221, 255);
+}
+
+.comercialInput {
+    display:block;
+    margin : 0 auto;
+    border: 2px solid rgb(102, 137, 252);
+    border-radius: 4px;
+    text-align:center;
+    width:80%;
+    height:30px;
+}
+
+.comercialButton {
+    background-color: #3844b1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:4px;
+    margin-top: 15px;
+}
+.comercialButton:hover {
+    transition:1s;
+    background-color:#2136af;
+}
+
+/* Estilos do telefones.php */
+.menu-criar-telefone {
+    position:absolute;
+    width:22%;
+    height:48%;
+    top:5%;
+    right:60%;
+    border-radius:6px;
+    background-color:rgb(127, 224, 159);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #3dc043!important;
+}
+
+.menu-deletar-telefone {
+    position:absolute;
+    width:22.1%;
+    height:32%;
+    top:5%;
+    right:30%;
+    border-radius:6px;
+    background-color:rgb(255, 147, 147);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #e23b3b!important;
+}
+
+.telefoneInput {
+    display:block;
+    margin : 0 auto;
+    border: 2px solid rgb(9, 151, 45);
+    border-radius: 4px;
+    text-align:center;
+    width:80%;
+    height:30px;
+}
+
+.telButton {
+    background-color: #27972d;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:4px;
+    margin-top: 15px;
+}
+.telButton:hover {
+    transition:1s;
+    background-color:#0b9212;
+}
+
+.menu-ver-telefone {
+    position:absolute;
+    width:80%;
+    height:40%;
+    top:60%;
+    right:10%;
+    border-radius:6px;
+    background-color:rgb(255, 199, 147);
+    overflow-y: scroll;
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #c07b42!important;
+}
+
+.menu-ver-telefone::-webkit-scrollbar {
+    background-color:rgb(255, 199, 147);
+}
+
+/* Estilos do reunioes.php */
+.menu-criar-reuniao {
+    position:absolute;
+    width:22%;
+    height:35%;
+    top:5%;
+    right:60%;
+    border-radius:6px;
+    background-color:rgb(147, 172, 255);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #4773d1!important;
+}
+
+.reuniaoInput {
+    display:block;
+    margin : 0 auto;
+    border: 2px solid rgb(105, 102, 252);
+    border-radius: 4px;
+    text-align:center;
+    width:80%;
+    height:30px;
+}
+
+.reuniaoButton {
+    background-color: #554be0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius:4px;
+    margin-top: 15px;
+}
+.reuniaoButton:hover {
+    transition:1s;
+    background-color: #3f33e4;
+}
+
+.menu-deletar-reuniao {
+    position:absolute;
+    width:22.1%;
+    height:32%;
+    top:5%;
+    right:30%;
+    border-radius:6px;
+    background-color:rgb(255, 147, 147);
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #e23b3b!important;
+}
+
+.menu-ver-reuniao {
+    position:absolute;
+    width:80%;
+    height:40%;
+    top:60%;
+    right:10%;
+    border-radius:6px;
+    background-color:rgb(255, 147, 183);
+    overflow-y: scroll;
+    color:#fff;
+    text-align:center;
+    border-left: 6px solid #c74465!important;
+}
+
+.menu-ver-reuniao::-webkit-scrollbar {
+    color:rgb(255, 147, 183);
+}

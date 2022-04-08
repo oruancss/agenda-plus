@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* CSS da index */
+
+body {
+    background-color:#282a36;
+    font-family:sans-serif;
+}
+
+.logo-index {
+    position:absolute; 
+    width:120px;
+    height:100px;   
+    left:46.5%;
+    top:10%;
+}
+
+.login-main {
+    position: absolute;
+    width:25%;
+    height:30%;
+    top:35%;
+    left:37%;
+    background-color:#20222b;
+    border-left: 6px solid #8662a4!important;
+    border-radius:3px;
+}
+
+.usuarioInput {
+    position:relative;
+    display:block;
+    margin :0 auto;
+    width:100%;
+    height:40px;
+    box-sizing:border-box;
+    text-align:center;
+    background:transparent;
+    border:none;
+    border-bottom:2px solid #8662a4;
+    color:#fff;
+    margin-top: 5px;
+}
+
+::placeholder {
+    color:rgb(211, 211, 211);
+    opacity:1;
+}
+
+.senhaInput {
+    position:relative;
+    display:block;
+    margin:0 auto;
+    width:100%;
+    height:40px;
+    box-sizing:border-box;
+    text-align:center;
+    background:transparent;
+    border:none;
+    border-bottom:2px solid #8662a4;
+    color:#fff;
+    margin-top: 5px;
+}
+
+.loginButton {
+    background-color: #8662a4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:grid;
+    margin: auto;
+    font-size: 16px;
+    border-radius:4px;
+    margin-top: 30px;
+}
+
+.loginButton:hover {
+    background-color:#c39de2;
+    transition:2s;
+}
+
+.creditos {
+    position:absolute;
+    top:67%;
+    left:45.5%;
+    color:#fff;
+    font-size:14px;
+}
+
+a#credito {
+    text-decoration:none;
+    color:#8662a4;
+}
+
+div#alerta-invalido {
+    position: absolute;
+    right:10px;
+    top:85%;
+    width:300px;
+    height:50px;
+    background-color:rgb(248, 143, 143);
+    border-radius:3px;
+    text-align:center;
+    color:#fff;
+}
