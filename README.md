@@ -3,7 +3,7 @@
 
 ### Instalation
 
-- First off, get your webserver (I'd recommend XAMPP or something similar).
+- First off get your webserver (I'd recommend XAMPP or something similar).
 - After you get your webserver, you have to install the database, you'll find the SQL file inside the folder "install-db", just import to your phpMyAdmin.
 - Config your database acess (user, pass and database name) inside coredb.php, you might find it inside the folder called "system".
 
